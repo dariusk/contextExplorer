@@ -1,0 +1,33 @@
+body {
+  margin: 30px;
+  font-family: sans-serif;
+}
+h1 {
+  margin-bottom: -20px;
+}
+h2 {
+  color: rgba(0,0,0,0.5);
+}
+h3 {
+  margin-top: -20px;
+  color: rgba(0,0,0,0.5);
+}
+a {
+  color: rgba(0,0,255,0.45);
+}
+.col {
+  float: left;
+  list-style-type: none;
+}
+li:hover {
+  background: rgba(195, 200, 255, 1);
+}
+#red {
+  background: rgba(255, 150, 150, 0.5);
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
